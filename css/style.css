@@ -1,0 +1,176 @@
+/* google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* header-css */
+
+.ashora-header {
+    line-height: 25px;
+    padding-bottom: 40px;
+
+}
+
+.ashora-header .header-wrap {
+    background: #e5e5e5;
+    padding-left: 330px;
+
+}
+
+.ashora-header .header-wrap a {
+    text-decoration: none;
+    color: #212121;
+    margin-left: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+.ashora-header .header-wrap a:first-child {
+    color: #f36f36;
+    font-weight: 700;
+}
+
+.ashora-header .header-wrap a:hover {
+    border-bottom: 1px solid #f36f36;
+    color: #f36f36;
+    transition: all 0.2 ease;
+}
+
+.logo-header {
+    line-height: 20px;
+    padding: 16px 40px;
+}
+
+.logo-header .logo {
+    float: left;
+}
+
+/* main-search-bar-css */
+.logo-header .main-search-form {
+    width: 60%;
+    float: left;
+    padding-left: 100px;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.logo-header .search-box-view .email {
+    position: relative;
+    width: calc(100% - 50px);
+    float: left;
+    height: 40px;
+    font-size: 11px;
+    color: #333;
+    background: #f6f6f6;
+    line-height: 45px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+
+}
+
+.logo-header .search-box-view .email::placeholder {
+    text-indent: 15px;
+    font-weight: lighter;
+    font-size: 15px;
+
+}
+
+.logo-header .search-box-view .submit {
+    width: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    float: left;
+    background: #f57224;
+    color: #f6f6f6;
+    height: 45px;
+    line-height: 45px;
+    text-transform: capitalize;
+    padding-right: 10px;
+    border: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.logo-header .search-box-view .email .submit i {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.ashora-header .ashora-app {
+    float: left;
+    display: inline-block;
+}
+
+.ashora-header .ashora-app i {
+    font-size: 30px;
+    float: left;
+    margin-left: 25px;
+    overflow: hidden;
+    height: 45px;
+    margin-bottom: 0px;
+}
+
+/* slider-css */
+.slider-section {
+    height: 346px;
+    width: 100%;
+    background: rgba(6, 199, 214, 1.0);
+}
+
+.slider-background-colors {
+    width: 94%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.slider-section .menu-section {
+    width: 17%;
+    height: 100%;
+    float: left;
+    background: #ffff;
+}
+
+.slider-section .images {
+    width: 83%;
+    height: 100%;
+    float: left;
+    position: relative;
+    left: 0;
+}
+
+.slider-section .images img {
+    height: 100%;
+    width: 100%;
+}
+
+/* menu-section-css */
+
+.slider-section .menu-down-style {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    line-height: 2;
+}
+
+.slider-section .menu-down-style a:hover {
+    color: rgba(6, 199, 214);
+}
+
+.slider-section .menu-down-style a {
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+    color: #6e6e6e;
+}
